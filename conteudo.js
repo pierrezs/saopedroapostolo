@@ -33,13 +33,13 @@ const SITE = {
   },
 
   /* ---------- IMAGENS ----------
-     Coloque as fotos na pasta "imagens" e escreva o nome do arquivo aqui.
+     Envie a foto para o GitHub (mesmo lugar dos outros arquivos) e escreva o nome dela aqui.
      Se deixar "", o site usa uma ilustração no lugar.                     */
   imagens: {
-    logo: "imagens/logo.svg",
-    capa: "",          // ex.: "imagens/igreja.jpg" (foto da fachada, deitada)
-    historia: "",      // ex.: "imagens/igreja-antiga.jpg"
-    casaFormacao: "",  // ex.: "imagens/casa-de-formacao.jpg"
+    logo: "logo.svg",
+    capa: "",          // ex.: "igreja.jpg" (foto da fachada, deitada)
+    historia: "",      // ex.: "igreja-antiga.jpg"
+    casaFormacao: "",  // ex.: "casa-de-formacao.jpg"
   },
 
   /* ---------- REDES SOCIAIS ---------- */
@@ -158,6 +158,25 @@ const SITE = {
     },
   ],
 
+  /* ---------- FESTA DO PADROEIRO ----------
+     A página inicial mostra quantos dias faltam para a festa.
+     "data" = mês-dia.                                                    */
+  festa: {
+    data: "06-29",
+    titulo: "Festa de São Pedro Apóstolo",
+    texto: "Missas, procissão, bazar, barraquinhas e shows. Venha celebrar o nosso padroeiro com toda a comunidade!",
+  },
+
+  /* ---------- VERSÍCULOS DA FAIXA ----------
+     Frases que passam na faixa vermelha da página inicial.              */
+  versiculos: [
+    { frase: "Tu és Pedro, e sobre esta pedra edificarei a minha Igreja", ref: "Mt 16,18" },
+    { frase: "Avança para águas mais profundas, e lançai as redes", ref: "Lc 5,4" },
+    { frase: "Senhor, a quem iremos? Tu tens palavras de vida eterna", ref: "Jo 6,68" },
+    { frase: "Eu te darei as chaves do Reino dos Céus", ref: "Mt 16,19" },
+    { frase: "Senhor, tu sabes tudo; tu sabes que eu te amo", ref: "Jo 21,17" },
+  ],
+
   /* ---------- AVISOS DO INSTAGRAM ----------
      Cole aqui o link dos posts que quer mostrar (o mais novo primeiro).
      No Instagram: abra o post › ⋯ › Copiar link.                         */
@@ -172,8 +191,7 @@ const SITE = {
 
   /* ---------- LINKS ÚTEIS ---------- */
   links: [
-    { titulo: "Pílulas de Catequese", texto: "Formação em pequenas doses com o Pe. Marcelo Froés.", url: "https://drive.google.com/drive/folders/1AXpDoAA9n0h1KKB77uwaY-XUS9z_5Gw3" },
-    { titulo: "Liturgia diária", texto: "Leituras e Evangelho do dia.", url: "https://liturgia.cancaonova.com/pb/" },
+    { titulo: "Pílulas de Catequese", texto: "Formação em pequenas doses com o Pe. Marcelo Fróes.", url: "https://drive.google.com/drive/folders/1AXpDoAA9n0h1KKB77uwaY-XUS9z_5Gw3" },
   ],
 
   /* ---------- DÍZIMO E DOAÇÕES ----------
@@ -184,9 +202,12 @@ const SITE = {
     texto: "Seu dízimo e suas ofertas mantêm a paróquia viva e ajudam quem mais precisa. Obrigado pela sua generosidade!",
   },
 
-  /* ---------- CLERO ---------- */
+  /* ---------- CLERO ----------
+     "foto" é opcional: envie a foto e escreva o nome do arquivo.        */
   clero: [
-    { nome: "Pe. Marcelo Froés", cargo: "Pároco", foto: "" },   // CONFIRMAR nome e cargo
+    { nome: "Pe. Ilson Fontenelle", cargo: "Pároco",            foto: "" },
+    { nome: "Pe. Renato Peruna",    cargo: "Vigário paroquial", foto: "" },
+    { nome: "Pe. Marcelo Fróes",    cargo: "Vigário paroquial", foto: "" },
   ],
 
   /* ---------- PASTORAIS E MOVIMENTOS ---------- */
