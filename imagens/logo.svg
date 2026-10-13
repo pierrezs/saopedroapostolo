@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Chaves de São Pedro">
+  <circle cx="50" cy="50" r="47" fill="#13294b"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#c99a3b" stroke-width="1.5"/>
+  <!-- chave dourada -->
+  <g transform="rotate(45 50 50)" fill="none" stroke="#e2bd6a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="50" cy="27" r="8"/>
+    <line x1="50" y1="35" x2="50" y2="76"/>
+    <path d="M50 64 h8 M50 71 h10 M58 64 v7"/>
+  </g>
+  <!-- chave prateada -->
+  <g transform="rotate(-45 50 50)" fill="none" stroke="#dfe6f0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="50" cy="27" r="8"/>
+    <line x1="50" y1="35" x2="50" y2="76"/>
+    <path d="M50 64 h-8 M50 71 h-10 M42 64 v7"/>
+  </g>
+  <circle cx="50" cy="50" r="3.2" fill="#c99a3b"/>
+</svg>
